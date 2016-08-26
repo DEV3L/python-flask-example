@@ -10,7 +10,7 @@ def index():
     return "Python - Hello World! v1.1 - Hi Candace"
 
 @app.route("/nick")
-def index():
+def nick():
     return "Nick's secret route"
 
 if __name__ == "__main__":
