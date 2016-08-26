@@ -9,6 +9,9 @@ app = Flask(__name__)
 def index():
     return "Python - Hello World! v1.1 - Hi Candace"
 
+@app.route("/nick")
+def index():
+    return "Nick's secret route"
 
 if __name__ == "__main__":
     app.run()  # debug="True")
